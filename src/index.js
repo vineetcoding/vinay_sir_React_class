@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import './index.css';
+import App from './App';
+import Header from './W3_Header';
+import YtNetflix from './Yt_Self_Std';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <div>
+  <React.Fragment>
+    <Header/>
     <App/>
-  </div>
+    {/* <YtNetflix/> */}
+  </React.Fragment>
 );
 
 // If you want to start measuring performance in your app, pass a function
