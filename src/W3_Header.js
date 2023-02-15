@@ -8,7 +8,7 @@ export default class Header extends Component {
             <>
                 <div className="header_div">
                     
-                    <img src="W3Schools_logo.svg.png" alt="Logo"/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/1200px-W3Schools_logo.svg.png" alt="Logo"/>
                     
                     <p className="tutorial">Tutorial</p>
                     <p className="references">References</p>

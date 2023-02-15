@@ -10,7 +10,7 @@ root.render(
   <React.Fragment>
     <Header/>
     <App/>
-    {/* <YtNetflix/> */}
+    <YtNetflix/>
   </React.Fragment>
 );
 
