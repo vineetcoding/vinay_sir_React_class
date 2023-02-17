@@ -1,0 +1,15 @@
+
+.products_outer_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product_div{
+    border: 1px solid;
+    width: 25%;
+    text-align: center;
+    margin: 1%;
+}
+.product_div img{
+    width: 100%;
+}
